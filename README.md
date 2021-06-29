@@ -121,12 +121,12 @@ pip3 install -r requirements-cli.txt
 - Select your database name
 - Copy your database url, and fill to **DATABASE_URL** in config
 
+</details>
+
 **2. Using Heroku PostgreSQL**
 <p><a href="https://dev.to/prisma/how-to-setup-a-free-postgresql-database-on-heroku-1dc1"> <img src="https://img.shields.io/badge/see%20on%20dev.to-black?style=for-the-badge&logo=dev-dot-to" width="190""/></a></p>
 
 **NOTE**: If you deploying on Heroku using Heroku button, no need to generate database manually, because it will automatic generate database when first deploying
-
-</details>
 
 ## Setting up config file
 <details>
