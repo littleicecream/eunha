@@ -16,8 +16,10 @@
 **Eunha Mirror Bot** is a _multipurpose_ Telegram Bot writen in Python for mirroring files on the Internet to our beloved Google Drive.
 
 # Features supported:
-## Additional Features
+<details>
+    <summary><b>Click Here For More Details</b></summary>
 
+## Additional Features
 <details>
     <summary><b>Click here for more details</b></summary>
 
@@ -35,6 +37,7 @@
 - Extracting **tar.xz** support
 - Create Tar Google Drive folder
 - Custom image support
+- Custom Progress bar
 - Counting file/folder
 - Shell and Executor
 - View Link button
@@ -182,6 +185,8 @@ Fill up rest of the fields. Meaning of each fields are discussed below:
 - **HEROKU_API_KEY**: (Only if you deploying on Heroku) Your Heroku API key, get it from https://dashboard.heroku.com/account.
 - **HEROKU_APP_NAME**: (Only if you deploying on Heroku) Your Heroku app name.
 - **IGNORE_PENDING_REQUESTS**: If you want the bot to ignore pending requests after it restarts, set this to `True`.
+- **FINISHED_PROGRESS_STR**: Single character for finished progress. Example: "Uploading ●●●●○○○○ %50". This value sets: "●". You can Select any character from these listed sites: https://coolsymbol.com, https://changaco.oy.lc/unicode-progress-bars/, https://text-symbols.com/
+- **UNFINISHED_PROGRESS_STR**: Single character for finished progress. Example: "Uploading ●●●●○○○○ %50". This value sets: "○". You can Select any character from these listed sites: https://coolsymbol.com, https://changaco.oy.lc/unicode-progress-bars/, https://text-symbols.com/
 - **SHORTENER_API**: Fill your Shortener api key if you are using Shortener.
 - **SHORTENER**: if you want to use Shortener in Gdrive and index link, fill Shortener url here. Examples:
 ```
