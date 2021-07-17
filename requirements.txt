@@ -27,4 +27,4 @@ telegraph
 tenacity
 TgCrypto
 youtube_dl
-rclone
+rclone==v1.55.1
