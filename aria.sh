@@ -7,7 +7,7 @@ aria2c --enable-rpc --rpc-listen-all=false --check-certificate=false \
    --bt-tracker="[$tracker_list]" --bt-max-peers=0 --bt-tracker-connect-timeout=300 --bt-stop-timeout=1200 --min-split-size=10M \
    --follow-torrent=mem --split=10 \
    --daemon=true --allow-overwrite=true --max-overall-download-limit=0 --max-download-limit=0 \
-   --max-overall-upload-limit=1B --max-concurrent-downloads=1 \
+   --max-overall-upload-limit=1K --max-concurrent-downloads=1 \
    --peer-id-prefix=-qB4360- --user-agent=qBittorrent/4.3.6 --peer-agent=qBittorrent/4.3.6 \
    --disk-cache=64M --file-allocation=prealloc --continue=true \
    --max-file-not-found=5 --max-tries=20 --auto-file-renaming=true \
