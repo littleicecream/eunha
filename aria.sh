@@ -9,7 +9,7 @@ aria2c --enable-rpc --rpc-listen-all=false --check-certificate=false \
    --daemon=true --allow-overwrite=true --max-overall-download-limit=0 --max-download-limit=0 \
    --max-overall-upload-limit=1K --max-concurrent-downloads=10 \
    --peer-id-prefix=-qB4360- --user-agent=qBittorrent/4.3.6 --peer-agent=qBittorrent/4.3.6 \
-   --disk-cache=512M --file-allocation=prealloc --continue=true \
+   --disk-cache=16M --file-allocation=prealloc --continue=true \
    --max-file-not-found=5 --max-tries=20 --auto-file-renaming=true \
    --seed-time=0.01 --seed-ratio=1.0 --bt-enable-lpd=true --enable-dht=true --enable-dht6=true --enable-peer-exchange=true \
    --content-disposition-default-utf8=true --http-accept-gzip=true --reuse-uri=true --netrc-path=/usr/src/app/.netrc
